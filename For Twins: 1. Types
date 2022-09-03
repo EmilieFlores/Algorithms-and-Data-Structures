@@ -1,7 +1,1 @@
-function typeValidation(variable, type) {
-if(variable <= type){
-  return false
-} else {
-  return true 
-}
-}
+const typeValidation = (variable, type) => typeof variable == type
