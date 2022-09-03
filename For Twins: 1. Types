@@ -1,0 +1,7 @@
+function typeValidation(variable, type) {
+if(variable <= type){
+  return false
+} else {
+  return true 
+}
+}
