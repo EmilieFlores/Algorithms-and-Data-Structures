@@ -1,1 +1,1 @@
-var summation = num => num * (num + 1) /2 
+let summation = num => num * (num + 1) /2 
