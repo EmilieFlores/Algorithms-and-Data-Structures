@@ -1,0 +1,1 @@
+const truncateString = (str, num) => str.length > num ? str.slice(0, num - (num > 3) * 3) + "..." : str
